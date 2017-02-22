@@ -16,10 +16,8 @@ public class Principal {
      */
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-            System.out.println("Hello Word! " + (i+1) + " º");
-            if(i >=9){
-                System.out.println("FIM!!!!!!!");
-           
+            if(i % 2 == 0){
+                  System.out.println("Hello Word! " + (i+1) + " º");   
             }
         }
     }
